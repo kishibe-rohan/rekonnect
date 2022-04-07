@@ -9,8 +9,8 @@ const AddUserForm = () => {
   const dispatch = useDispatch();
   const { loading, error, message } = useSelector((state) => state.users);
 
-  const [name,setName] = useState<string>("");
-  const [avatar,setAvatar] = useState<string | null>(null);
+  const [name,setName] = useState("");
+  const [avatar,setAvatar] = useState(null);
 
   const handleSubmit = async(e) => {
     e.preventDefault();
