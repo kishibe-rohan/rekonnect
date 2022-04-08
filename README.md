@@ -41,6 +41,7 @@ https://vimeo.com/697225882
 
 <h3><i>Algorithm:</i></h3>
 <p> A breadth-first search approach is used to find the degrees of separation between two users. We picture the social network as a graph with the users as nodes and the connection between friends as edges.</p>
+
 - User 1 is treated as 'source' and User 2 as 'destination'
 - We create a map to keep track of parent-child values where the friends of User 1 are treated as children of User 1 and so on..
 - We also create a Set to keep track of visited nodes
