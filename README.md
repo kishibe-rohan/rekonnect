@@ -34,7 +34,7 @@ https://vimeo.com/697225882
 <hr/>
 
 - Clone the repository
-- Add a .env in the server directory and add MONGO_URI connection string and PORT
+- Update the .env in the server directory and add MONGO_URI connection string and PORT
 - Run 'npm start' in the client and server directory
 - The app will run on localhost:3000
 <hr/>
